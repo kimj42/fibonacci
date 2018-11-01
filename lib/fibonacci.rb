@@ -28,7 +28,6 @@ def fibonacci(n)
 
   until count == n
     result = first + second
-    # binding.pry
     first = second
     second = result
     count += 1
