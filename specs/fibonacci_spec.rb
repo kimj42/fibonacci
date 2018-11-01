@@ -9,18 +9,22 @@ describe "fibonacci" do
     end
 
     it "fibonacci of 3" do
+      # skip
       fibonacci(3).must_equal 2
     end
 
     it "fibonacci of 8" do
+      # skip
       fibonacci(8).must_equal 21
     end
 
     it "fibonacci of 12" do
+      # skip
       fibonacci(12).must_equal 144
     end
 
     it "fibonacci of 6" do
+      # skip
       fibonacci(6).must_equal 8
     end
   end
@@ -29,14 +33,17 @@ describe "fibonacci" do
   describe "edge cases" do
     # if the parameter is an object, check for nil
     it "nil object is not an integer" do
+      # skip
       proc {fibonacci(nil)}.must_raise ArgumentError
     end
 
     it "negative input" do
+      # skip
       proc {fibonacci(-9)}.must_raise ArgumentError
     end
 
     it "zero input" do
+
       fibonacci(0).must_equal 0
     end
   end
